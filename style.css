@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    background-image: url(122.jpg);
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    width: 1500px;
+    height: 500px;
+}
+#character{
+    width: 200px;
+    height: 200px;
+    background-image: url(LumineS.jpg);
+    background-size: cover;
+    top: 50px;
+    left: 50px;
+    position: relative;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 50px;}
+    30%{top: -170px;}
+    70%{top: -170px;}
+    100%{top: 50px;}
+}
+#gif{
+    width: 75px;
+    height: 75px; 
+    position: absolute;
+    right: 45px;
+    top: 31px;
+}
+#block{
+    width: 200px;
+    height: 200px;
+    background-image: url(Noelle.jpg);
+    background-size: cover;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+#span{
+    font-size: 150%;
+}
+#scoreSpan{
+    font-size: 100%;
+}
+@keyframes block{   
+    0%{left: 1500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
+}
