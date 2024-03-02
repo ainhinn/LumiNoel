@@ -8,11 +8,19 @@
     width: 1500px;
     height: 500px;
 }
+#heading{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    font-size: 250%;
+    font-weight: bold;
+    color: rgba(255, 9, 75, 0.53);
+}
 #character{
     width: 200px;
     height: 200px;
     background-image: url(LumineS.jpg);
-    background-size: cover;
+    background-size: auto;
     top: 50px;
     left: 50px;
     position: relative;
@@ -27,11 +35,11 @@
     100%{top: 50px;}
 }
 #gif{
-    width: 75px;
-    height: 75px; 
+    width: 100px;
+    height: 100px; 
     position: absolute;
-    right: 45px;
-    top: 31px;
+    right: 35px;
+    top: 35px;
 }
 #block{
     width: 200px;
@@ -44,7 +52,12 @@
     animation: block 1s infinite linear;
 }
 #span{
-    font-size: 150%;
+    font-size: 200%;
+    color: rgba(118, 0, 26, 0.632);
+    font-weight: bold;
+    font-style: italic;
+    border-style: dashed;
+    height: fit-content;
 }
 #scoreSpan{
     font-size: 100%;
